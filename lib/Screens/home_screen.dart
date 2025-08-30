@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moi_apps/Screens/Moi_Details.dart';
+import 'package:moi_apps/Screens/Total_Moicollection.dart';
 
 import 'collection_entry_screens.dart';
 
@@ -73,14 +75,14 @@ class _HomePageState extends State<HomePage> {
                       imagePath: "assets/images/img2.png",
                       text: "புதியதாக மொய் செய்ய",
                       onTap: () {
-                        // Navigator.push(context, MaterialPageRoute(builder: (context) => MoiDetails()));
+                         Navigator.push(context, MaterialPageRoute(builder: (context) => MoiDetails()));
                       },
                     ),
                     _buildCustomButton(
                       imagePath: "assets/images/img3.png",
                       text: "மொய் கணக்கீடு",
                       onTap: () {
-                        // Navigator.push(context, MaterialPageRoute(builder: (context) => TotalMoicollection()));
+                         Navigator.push(context, MaterialPageRoute(builder: (context) => TotalMoicollection()));
                       },
                     ),
                   ],
